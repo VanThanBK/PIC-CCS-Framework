@@ -1,0 +1,51 @@
+
+ROM used:   96/8192 (1%)
+            96/8192 (1%) including unused fragments
+
+            0.1 Average locations per line
+            4.2 Average locations per statement
+
+RAM used:   6/368 (2%) at main() level
+            9/368 (2%) worst case
+
+Stack used: 1 worst case (1 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   38    23 100  74HC595.c
+   19     0   0  74HC595.h
+  671     0   0  C:\Program Files (x86)\PICC\Devices\16F877A.h
+----- -----
+  728    23 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     20  21    1             @delay_ms1
+0     35  36    1   100  1.7  main
+0     10  10    0    67  1.2  HC595_Init
+0     27  28    4   387  6.0  Output595
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               3
+    Statements              23
+    Comments                119
+    Volume (V)              708
+    Difficulty (D)          8.5
+    Effort to implement (E) 6031
+    Time to implement (T)   6 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   2
+    Maintainability (MI)    93
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF    92  1952  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

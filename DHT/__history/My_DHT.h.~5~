@@ -1,0 +1,9 @@
+#use fast_io(b)
+#define DHT_Data     PIN_B0
+#define DHT_DIR      set_tris_b
+#define DHT_DIR1     get_tris_b
+
+void DHTStart();
+int DHTcheck();
+float Temp,Humi;
+#include "My_DHT.c"

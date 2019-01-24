@@ -1,0 +1,23 @@
+*** Error 18 "E:\PIC_CCS\NEW\new.h" Line 1(9,19): File can not be opened
+    Not in "C:\Program Files (x86)\PICC\Devices\16F887.h"
+    Not in "C:\Program Files (x86)\PICC\Drivers\16F887.h"
+    Not in "E:\PIC_CCS\NEW\16F887.h"
+    Not in local "16F887.h"
+    Not in local "E:\PIC_CCS\NEW\16F887.h"
+    Not in last "E:\PIC_CCS\NEW\16F887.h"
+    Not in project "E:\PIC_CCS\NEW\16F887.h"
+*** Error 128 "E:\PIC_CCS\NEW\new.h" Line 2(9,15): A #DEVICE required before this line
+*** Error 128 "E:\PIC_CCS\NEW\new.h" Line 4(7,50): A #DEVICE required before this line
+*** Error 128 "E:\PIC_CCS\NEW\new.h" Line 5(7,49): A #DEVICE required before this line
+*** Error 128 "E:\PIC_CCS\NEW\new.h" Line 6(7,91): A #DEVICE required before this line
+*** Error 99 "E:\PIC_CCS\NEW\new.h" Line 8(5,25): Option invalid   Invalid Combination
+*** Error 99 "new.c" Line 2(5,17): Option invalid   Not a valid port: E
+*** Error 128 "new.c" Line 4(7,53): A #DEVICE required before this line
+*** Error 128 "new.c" Line 5(7,52): A #DEVICE required before this line
+*** Error 128 "new.c" Line 6(7,94): A #DEVICE required before this line
+*** Error 99 "new.c" Line 8(5,28): Option invalid   Invalid Combination
+*** Error 128 "new.c" Line 8(5,8): A #DEVICE required before this line
+--- Info 300 "new.c" Line 10(11,12): More info:   ** I/O error 131
+*** Error 44 "new.c" Line 10(11,12): Internal Error - Contact CCS
+      13 Errors,  0 Warnings.
+Build Failed.

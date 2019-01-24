@@ -1,0 +1,34 @@
+[PROJECT]
+Target=7SEG_Demo.hex
+Processor_Text=PIC16F887
+CCSVerions=5.015
+Compiler=PCM
+CCSVersion=5.015
+[Target Data]
+FileList=7SEG_Demo.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[D:\PIC_CCS\7SEG_Demo\7SEG_Demo]
+Type=4
+[mru-list]
+1=7SEG_Demo.c
+[Opened Files]
+1=7SEG_Demo.c
+2=7SEG_Demo.h
+3=..\LCD\MyLCD.c
+4=..\LCD\MyLCD.h
+5=..\Stepper\MyStepper.c
+6=..\Stepper\MyStepper.h
+7=..\7SEG\My_7seg.h
+8=..\DHT\My_DHT.c
+9=..\DHT\My_DHT.h
+10=..\Homephone\Homephone.c
+11=..\Homephone\Homephone.h
+12=..\Homephone\font.h
+13=..\Keypad\MyKeypad.c
+14=
+[7SEG_Demo.c]
+Type=4
+[Units]
+Count=1
+1=7SEG_Demo (main)

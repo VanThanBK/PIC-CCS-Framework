@@ -1,0 +1,19 @@
+/***********************************************
+* DHT Library
+* Source file "My_DHT.c"
+***********************************************/
+void DHTStart(){
+   DHT_DIR(DHT_DIR1()&0xfe);
+   output_bit(DHT_Data ,1);
+   output_bit(DHT_Data ,0);delay_ms(20);
+   output_bit(DHT_Data ,1);delay_us(1);
+   DHT_DIR(DHT_DIR1()|0x01);
+}
+
+int DHTcheck(){
+   int dht_ch = 0;
+   delay_us(40);
+   if(input(DHT_Data)==1){ return dht_ch;}
+   else { dht_ch = 1;delay_us(82);}
+  
+}

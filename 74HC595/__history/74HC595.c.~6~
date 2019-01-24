@@ -1,0 +1,13 @@
+#include <74HC595.h>
+
+void main()
+{
+   while(TRUE)
+   {
+      output_high(SHCP);
+      delay_ms(500);
+      output_low(SHCP);
+      delay_ms(500);
+   }
+
+}

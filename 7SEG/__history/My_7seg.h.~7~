@@ -1,0 +1,17 @@
+#use fast_io(d)
+#use fast_io(e)
+
+#define SEG_PORT        output_d
+#define SEG_PORT_Dir    set_tris_d
+#define seg_1           PIN_E0
+#define seg_2           PIN_E1
+#define seg_3           PIN_E2
+
+#define seg_dir         set_tris_e
+
+volatile unsigned long num = 0;
+void SegInit();
+void SegLed(char num);
+void SegNumber(long number);
+
+#include "My_7seg.c"

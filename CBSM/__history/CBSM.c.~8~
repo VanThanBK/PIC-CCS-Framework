@@ -1,0 +1,24 @@
+#include <CBSM.h>
+
+#USE FAST_IO (c)
+#define led PIN_C0
+
+#int_TIMER0
+void TIMER0_isr(void) 
+{
+   set_timer0(206);
+   output_toggle(led);
+}
+
+void main()
+{  
+   set_tris_c(get_tris_c()&0xfe);
+   enable_interrupts(INT_TIMER0);
+   enable_interrupts(GlOBAL);
+   setup_timer_0(RTCC_INTERNAL|RTCC_DIV_1);
+   while(TRUE)
+   {
+      //TODO: User Code
+   }
+
+}

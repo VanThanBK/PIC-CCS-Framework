@@ -1,0 +1,24 @@
+#include <7SEG_Demo.h>
+
+char receString[16];
+void main()
+{
+   output_low(PIN_C1);   // Set CCP2 output low 
+   output_low(PIN_C2);   // Set CCP1 output low 
+   setup_ccp1(CCP_PWM);  // Configure CCP1 as a PWM 
+   LCDInit();
+   LCDClear();
+   LCDMove(1, 2);
+   printf(LCDPutChar, "%s", "Than");
+   setup_timer_2 (T2_DIV_BY_16, 130, 10);
+   set_pwm1_duty(50);
+   LCDMove(2, 2);
+   //LCDPutChar('A');
+   while(TRUE)
+   {  
+      gets(receString);
+      printf(LCDPutChar, "%s", receString);
+      delay_ms(1000);
+   }
+}
+

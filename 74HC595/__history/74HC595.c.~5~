@@ -1,0 +1,13 @@
+#include <74HC595.h>
+
+void main()
+{
+   while(TRUE)
+   {
+      output_high(PIN_B1);
+      delay_ms(500);
+      output_low(PIN_B1);
+      delay_ms(500);
+   }
+
+}

@@ -1,0 +1,11 @@
+#include <74HC595.h>
+
+void main()
+{
+   set_tris_b(0xff);
+   while(TRUE)
+   {
+      output_low(PIN_B1);
+   }
+
+}

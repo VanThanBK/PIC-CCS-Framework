@@ -1,0 +1,40 @@
+ÀÄ7SEG_Demo
+   ÃÄMAIN  0/129  Ram=0
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄLCDInit  0/23  Ram=0
+   ³  ³  ÃÄLCDMode4Bit  (Inline)  Ram=0
+   ³  ³  ³  ÀÄLCDLatchData  0/6  Ram=0
+   ³  ³  ³     ÀÄ@delay_ms1  0/21  Ram=1
+   ³  ³  ÃÄLCDWriteCommand  0/5  Ram=1
+   ³  ³  ³  ÀÄLCDWriteByte  0/87  Ram=2
+   ³  ³  ³     ÃÄLCDLatchData  0/6  Ram=0
+   ³  ³  ³     ³  ÀÄ*
+   ³  ³  ³     ÀÄLCDLatchData  0/6  Ram=0
+   ³  ³  ³        ÀÄ*
+   ³  ³  ÃÄLCDWriteCommand  0/5  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄLCDWriteCommand  0/5  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄLCDClear  0/6  Ram=0
+   ³  ³  ÀÄLCDWriteCommand  0/5  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄLCDMove  0/18  Ram=4
+   ³  ³  ÀÄLCDWriteCommand  0/5  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄ@PSTRINGC7_731  0/88  Ram=4
+   ³  ³  ÃÄLCDPutChar  0/7  Ram=1
+   ³  ³  ³  ÀÄLCDWriteData  (Inline)  Ram=1
+   ³  ³  ³     ÀÄLCDWriteByte  0/87  Ram=2
+   ³  ³  ³        ÀÄ*
+   ³  ³  ÀÄLCDPutChar  0/7  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄLCDMove  0/18  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄLCDPutChar  0/7  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄLCDPutChar  0/7  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄLCDPutChar  0/7  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÀÄ@delay_ms1  0/21  Ram=1
+   ÀÄcallbackRDA  0/18  Ram=3

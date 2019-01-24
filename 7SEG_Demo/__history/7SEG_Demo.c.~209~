@@ -1,0 +1,17 @@
+#include <7SEG_Demo.h>
+#use fast_io(e)
+void main()
+{
+   set_tris_e(0x00);
+   LCDInit();
+   LCDClear();
+   LCDMove(2, 2);
+   printf(LCDPutChar, "%s", "Than");
+   //LCDPutChar('A');
+   while(TRUE)
+   {  
+        // LCDPrint(1, 1, 'T');        
+   }
+
+}
+

@@ -1,0 +1,11 @@
+#include <CBSM.h>
+
+void main()
+{
+   setup_timer_0(RTCC_INTERNAL|RTCC_DIV_4);
+   while(TRUE)
+   {
+      //TODO: User Code
+   }
+
+}

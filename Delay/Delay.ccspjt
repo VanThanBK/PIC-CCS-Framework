@@ -1,0 +1,19 @@
+[PROJECT]
+Target=D:\PIC_CCS\Delay\Delay.hex
+Processor_Text=PIC12F675
+CCSVerions=5.015
+Compiler=PCM
+[Target Data]
+FileList=Delay.c
+[Directories]
+Include=
+[D:\PIC_CCS\Delay\Delay]
+Type=4
+[mru-list]
+1=Delay.c
+[Units]
+Count=1
+1=Delay (main)
+[Opened Files]
+1=Delay.c
+2=

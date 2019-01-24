@@ -1,0 +1,24 @@
+[PROJECT]
+Target=new.hex
+Processor_Text=PIC16F887
+CCSVerions=5.015
+Compiler=PCM
+CCSVersion=5.015
+[Target Data]
+FileList=new.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[D:\PIC_CCS\NEW\new]
+Type=4
+[mru-list]
+1=new.c
+[Opened Files]
+1=new.c
+2=new.h
+3=
+4=
+[new.c]
+Type=4
+[Units]
+Count=1
+1=new (main)

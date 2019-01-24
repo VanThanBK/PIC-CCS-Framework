@@ -1,0 +1,58 @@
+/***********************************************
+* 7SEG Library
+* Source file "My_7seg.c"
+***********************************************/
+void SegInit()
+    {
+      SEG_PORT_Dir(0x00);
+      SEG_PORT(0xff);
+      seg_dir(0x00);
+
+      output_high(seg_1);
+      output_high(seg_2);
+      output_high(seg_3);
+        //seg_4            =1;
+    }
+void SegLed(char num)
+    {
+        switch(num)
+            {
+            case 0: {SEG_PORT(0x03); break;}//so 0
+            case 1: {SEG_PORT(0x9f); break;}//so 1
+            case 2: {SEG_PORT(0x25); break;}//so 2
+            case 3: {SEG_PORT(0x0D); break;}//so 3
+            case 4: {SEG_PORT(0x99); break;}//so 4
+            case 5: {SEG_PORT(0x49); break;}//so 5
+            case 6: {SEG_PORT(0x41); break;}//so 6
+            case 7: {SEG_PORT(0x1f); break;}//so 7
+            case 8: {SEG_PORT(0x01); break;}//so 8
+            case 9: {SEG_PORT(0x09); break;}//so 9
+            }
+    }
+void SegNumber(long number)
+    {
+        unsigned long a,b,c,d,e;
+        //Lay ra tung so de hien thi
+        a = (number/10000);
+        b = (number - a*10000)/1000;
+        c = (number - a*10000 - b*1000)/100;
+        d = (number - a*10000 - b*1000 - c*100)/10;
+        e = (number - a*10000 - b*1000 - c*100 - d*10);
+
+        //Hien thi len tung Led
+        //Led 1
+      output_low(PIN_B0);
+        SegLed(3);
+        delay_ms(2);
+      output_high(PIN_B0);
+        //Led 2
+      output_low(PIN_B1);
+        SegLed(2);
+        delay_ms(2);
+      output_high(PIN_B1);
+        //Led 3
+      output_low(PIN_B1);
+        SegLed(7);
+        delay_ms(2);
+      output_high(PIN_B1);
+    }

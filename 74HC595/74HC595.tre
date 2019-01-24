@@ -1,0 +1,8 @@
+ÀÄ74HC595
+   ÀÄmain  0/35  Ram=1
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄHC595_Init  0/10  Ram=0
+      ÃÄOutput595  0/27  Ram=4
+      ÃÄ@delay_ms1  0/20  Ram=1
+      ÃÄOutput595  0/27  Ram=4
+      ÀÄ@delay_ms1  0/20  Ram=1

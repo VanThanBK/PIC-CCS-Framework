@@ -1,0 +1,27 @@
+*** Error 18 "E:\PIC_CCS\7SEG_Demo\7SEG_Demo.h" Line 1(9,19): File can not be opened
+    Not in "C:\Program Files (x86)\PICC\Devices\16F887.h"
+    Not in "C:\Program Files (x86)\PICC\Drivers\16F887.h"
+    Not in "E:\PIC_CCS\7SEG_Demo\16F887.h"
+    Not in local "16F887.h"
+    Not in local "E:\PIC_CCS\7SEG_Demo\16F887.h"
+    Not in last "E:\PIC_CCS\7SEG_Demo\16F887.h"
+    Not in project "E:\PIC_CCS\7SEG_Demo\16F887.h"
+*** Error 18 "E:\PIC_CCS\7SEG_Demo\7SEG_Demo.h" Line 2(10,20): File can not be opened
+    Not in "C:\Program Files (x86)\PICC\Devices\string.h"
+    Not in "C:\Program Files (x86)\PICC\Drivers\string.h"
+    Not in "E:\PIC_CCS\7SEG_Demo\string.h"
+    Not in local "string.h"
+    Not in local "E:\PIC_CCS\7SEG_Demo\string.h"
+    Not in last "E:\PIC_CCS\7SEG_Demo\string.h"
+    Not in project "E:\PIC_CCS\7SEG_Demo\string.h"
+*** Error 128 "E:\PIC_CCS\7SEG_Demo\7SEG_Demo.h" Line 3(7,53): A #DEVICE required before this line
+*** Error 128 "E:\PIC_CCS\7SEG_Demo\7SEG_Demo.h" Line 4(7,52): A #DEVICE required before this line
+*** Error 128 "E:\PIC_CCS\7SEG_Demo\7SEG_Demo.h" Line 5(7,94): A #DEVICE required before this line
+*** Error 99 "E:\PIC_CCS\7SEG_Demo\7SEG_Demo.h" Line 7(5,28): Option invalid   Invalid Combination
+*** Error 100 "E:\PIC_CCS\7SEG_Demo\7SEG_Demo.h" Line 9(5,45): USE parameter value is out of range   Not a number: PIN_C6
+*** Error 18 "E:\PIC_CCS\7SEG_Demo\7SEG_Demo.h" Line 12(10,34): File can not be opened
+    Not in local "A:\PIC_CCS\LCD\MyLCD.h"
+    Not in local "E:\PIC_CCS\7SEG_Demo\A:\PIC_CCS\LCD\MyLCD.h"
+*** Error 128 "7SEG_Demo.c" Line 12(10,17): A #DEVICE required before this line
+      9 Errors,  0 Warnings.
+Build Failed.

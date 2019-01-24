@@ -1,0 +1,11 @@
+#include <CBSM.h>
+
+void main()
+{
+   setup_timer_0 ( T0_INTERNAL | T0_DIV_BY_1 );
+   while(TRUE)
+   {
+      //TODO: User Code
+   }
+
+}

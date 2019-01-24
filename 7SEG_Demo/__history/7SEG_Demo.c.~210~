@@ -1,0 +1,25 @@
+#include <7SEG_Demo.h>
+#use fast_io(e)
+void main()
+{
+   set_tris_e(0x00);
+   output_low(PIN_C1);   // Set CCP2 output low 
+   output_low(PIN_C2);   // Set CCP1 output low 
+   setup_ccp1(CCP_PWM);  // Configure CCP1 as a PWM 
+   setup_ccp2(CCP_PWM);  // Configure CCP2 as a PWM 
+   LCDInit();
+   LCDClear();
+   LCDMove(2, 2);
+   printf(LCDPutChar, "%s", "Than");
+   setup_timer_2 (T2_DIV_BY_16, 130, 10);
+   set_pwm1_duty(50);                    // 25% duty cycle on pin C2 
+   set_pwm2_duty(60); 
+   
+   //LCDPutChar('A');
+   while(TRUE)
+   {  
+        // LCDPrint(1, 1, 'T');        
+   }
+
+}
+
